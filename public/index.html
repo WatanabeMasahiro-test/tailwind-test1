@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Hello Tailwind CSS</title>
+</head>
+<body>
+    <header>
+        <div class="text-left bg-red-200 mb-2 py-3">ここはheader</div>
+        <hr>
+        <hr>
+    </header>
+
+    <div id="main">
+        <div id="sub1-main" class="text-center py-10 bg-yellow-100">
+            <button class="bg-indigo-700 font-semibold text-white py-2 px-4 rounded">ボタン</button>
+            <button class="btn1 bg-red-700 hover:bg-red-500">ボタン</button>
+            <br>
+            <button class="btn2 bg-red-700 hover:bg-red-500 focus:outline-none">ボタン</button>
+            <div class="bg-green-50 hover:bg-green-600 duration-1000">
+                <p>duration</p>
+                <button class="border btn2 bg-green-900 transform hover:scale-125 hover:bg-green-700 duration-500">Transform</button>
+                <br>
+                <button class="btn1 bg-cyan hover:bg-red-500 transform hover:-scale-y-110 duration-1000">tailwind.config.jsからシアン色の追加</button>
+            </div>
+        </div>
+
+        <div id="sub1-main" class="group border mx-10 p-10 text-center hover:gray-100">
+            <p class="text-blue-900 font-bold text-3xl group-hover:text-red-400 duration-500">Group-Hover test1</p>
+            <p class="text-red-900 font-bold text-3xl group-hover:text-blue-400 duration-1000">Group-Hover test2</p>
+
+            <div>
+                <h4>プラグインの練習</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem, itaque, minima labore possimus delectus dolorum fugiat perferendis reprehenderit at culpa ex adipisci ullam in natus fuga alias magnam vel quas.
+                </p>
+            </div>
+        </div>
+
+        <div id="sub2-main" class="bg-blue-100">
+            <h1 class="text-4xl text-green-700 text-center font-semibold animate-bounce">Hello Tailwind</h1>
+
+            <hr>
+
+            <div class="text-center mt-10">
+                <p class="text-xs">fontの大きさ</p>
+                <p class="text-sm">fontの大きさ</p>
+                <p class="text-base">fontの大きさ</p>
+                <p class="text-lg">fontの大きさ</p>
+                <p class="text-xl">fontの大きさ</p>
+                <p class="text-2xl">fontの大きさ</p>
+                <p class="text-3xl">fontの大きさ</p>
+                <p class="text-4xl">fontの大きさ</p>
+                <p class="text-5xl">fontの大きさ</p>
+                <p class="text-6xl">fontの大きさ</p>
+            </div>
+
+            <hr>
+
+            <div class="text-center mt-10">
+                <p class="font-thin">fontの太さ</p>
+                <p class="font-extralight">fontの太さ</p>
+                <p class="font-light">fontの太さ</p>
+                <p class="font-nomal">fontの太さ</p>
+                <p class="font-medium">fontの太さ</p>
+                <p class="font-semibold">fontの太さ</p>
+                <p class="font-bold">fontの太さ</p>
+                <p class="font-extrabold">fontの太さ</p>
+                <p class="font-black">fontの太さ</p>
+            </div>
+
+            <hr>
+
+            <div class="text-center mt-10">
+                <p class="text-orange-100">fontの色</p>
+                <p class="text-orange-200">fontの色</p>
+                <p class="text-orange-300">fontの色</p>
+                <p class="text-orange-400">fontの色</p>
+                <p class="text-orange-500">fontの色</p>
+                <p class="text-orange-600">fontの色</p>
+                <p class="text-orange-700">fontの色</p>
+                <p class="text-orange-800">fontの色</p>
+                <p class="text-orange-900">fontの色</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <hr>
+        <hr>
+        <div class="text-right bg-green-300 mt-2 py-3">ここはfooter</div>
+    </footer>
+
+</body>
+</html>
