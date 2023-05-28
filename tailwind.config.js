@@ -22,6 +22,10 @@ module.exports = {
   variants: {},
   plugins: [
     require('@tailwindcss/line-clamp'),
+    // require('prettier-plugin-tailwindcss'),
+    // require('eslint-plugin-tailwind'),
+    require('daisyui'),
+    // require(''),
   ],
 }
 
