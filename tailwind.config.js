@@ -25,6 +25,7 @@ module.exports = {
     // require('prettier-plugin-tailwindcss'),
     // require('eslint-plugin-tailwind'),
     require('daisyui'),
+    require('preline/plugin'),
     // require(''),
   ],
 }
