@@ -1714,43 +1714,6 @@ html {
   --tw-backdrop-sepia:  ;
 }
 
-.alert {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--b2, var(--b1)) / var(--tw-bg-opacity));
-  padding: 1rem;
-  border-radius: var(--rounded-box, 1rem);
-}
-
-.alert > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
-}
-
-@media (min-width: 768px) {
-  .alert {
-    flex-direction: row;
-  }
-
-  .alert > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-y-reverse: 0;
-    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
-    margin-bottom: calc(0px * var(--tw-space-y-reverse));
-  }
-}
-
-.alert > :where(*) {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
 .btn {
   display: inline-flex;
   flex-shrink: 0;
@@ -1871,13 +1834,6 @@ html {
 .link {
   cursor: pointer;
   text-decoration-line: underline;
-}
-
-.alert-success {
-  --tw-bg-opacity: 1;
-  background-color: hsl(var(--su) / var(--tw-bg-opacity));
-  --tw-text-opacity: 1;
-  color: hsl(var(--suc, var(--nc)) / var(--tw-text-opacity));
 }
 
 .btn-outline.btn-primary .badge {
@@ -2242,14 +2198,14 @@ html {
   margin-right: auto;
 }
 
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
 .mb-2 {
